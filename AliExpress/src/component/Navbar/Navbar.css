@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: TT Norms Pro, Open Sans, Roboto, Arial, Helvetica, sans-serif, SimSun;
+}
+.nav-container{
+    background-color: #191919;
+    color: white;
+    width: 100vw;
+}
+.logo>img{
+    width: 256px;
+    height: 79px;
+}
+.nav-container div{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 4px;
+    font-size: 14px;
+    font-family: TT Norms Pro, Open Sans, Roboto, Arial, Helvetica, sans-serif, SimSun;
+}
+.set{
+    display: flex;
+    flex-direction: column;
+}
+.bottom-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 14px;
+}
+.categories{
+    background-color: #535353;
+    font-size: 16px;
+}
+.category-list{
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    top: 50px;
+    color: black;
+}
+.categories:hover .category-list{
+    top: 150px;
+    visibility: visible;
+    opacity: 1;
+}
+.bottombar-list li,a{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
