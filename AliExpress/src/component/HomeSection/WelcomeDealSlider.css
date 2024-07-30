@@ -1,0 +1,105 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.welcome-deal-slider{
+    margin-top: 16px;
+    max-width: 357px;
+    width: 100%;
+    -webkit-box-flex: 1;
+    flex: 1;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    justify-content: center;
+    /* border: 2px solid red; */
+    position: relative;
+}
+.slider{
+    box-sizing: border-box;
+    display: flex;
+    object-fit: cover;
+    width: 242px;
+    height: 242px;
+    border-radius: 16px;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    margin: auto;
+    /* transition: transform 1s ease-in-out, opacity 1s ease-in-out; Add transition properties */
+    transition: 2s;
+}
+.slider-hidden{
+    opacity: 0;
+    display: none;
+    transform: translateX(100%);
+}
+/* .slider>img{
+    object-fit: cover;
+    
+} */
+.btn{
+    /* border: 2px solid yellowgreen; */
+    position: absolute;
+    text-align: center;
+    
+}
+.prev-btn{
+    padding: 20px 10px;
+    border-radius: 20px;
+    background-color: rgba(116, 108, 108, 0.484);
+    border: none;
+    cursor: pointer;
+}
+.next-btn{
+    padding: 20px 10px;
+    border-radius: 20px;
+    background-color: rgba(116, 108, 108, 0.484);
+    border: none;
+    cursor: pointer;
+}
+.new-price{
+    color: #FD384F;
+    font-weight: 800;
+    margin-right: 5px;
+}
+.old-price{
+    text-decoration: line-through;
+    opacity: 0.5;
+    font-size: 14px;
+}
+.price-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 10px 0 ;
+}
+.slider-container{
+    position: relative;
+
+}
+.discount-banner{
+    position: absolute;
+    max-width: 116px;
+    right: 1rem;
+    bottom: 1rem;
+}
+.discount-banner>img{
+    width: 100%;
+    position: relative;
+}
+.discount-percentage{
+    border: 2px solid black;
+}
+.discount-banner>p{
+    position: absolute;
+    font-size: 36px;
+    margin-bottom: 5px;
+    margin-right: 20px;
+    color: #F4FCF8;
+    font-size: 32px;
+    bottom: 1.8rem;
+    left: 1.8rem;
+}
