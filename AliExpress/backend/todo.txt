@@ -1,0 +1,5 @@
+1. create db connection and import necessary stuffs - ✅
+2. create userSchema and userModel
+    => 2 routes required
+    1. /Register ==> create account ==>hashing (to provide security to user data in db) ✅
+    2. /login ==> first check if user provided email & Password matches with the hashed password of db ==> if matched give access ✅

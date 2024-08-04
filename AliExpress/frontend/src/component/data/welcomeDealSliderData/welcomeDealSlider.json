@@ -1,0 +1,33 @@
+
+{
+    "slides":[
+        {
+            "src":"https://ae-pic-a1.aliexpress-media.com/kf/S16f8a1f7900a4e36b623a6de282039ebz.jpg_350x350.jpg_.webp",
+            "alt":"Backless Sportswear Woman Gym Sports Bra Seamless Womens Underwear Adjustable Shoulder Strap Inner Padded Yoga Vest Bralette",
+            "newPrice":3.29,
+            "oldPrice":8.00,
+            "discountPercentage":58
+        },
+        {
+            "src":"https://ae-pic-a1.aliexpress-media.com/kf/S29c432d04bed4453b18bb65a28766814T.jpg_350x350.jpg_.webp",
+            "alt":"1-20Pcs Microfiber Towels Car Wash Drying Cloth Towel Household Cleaning Cloths Auto Detailing Polishing Cloth Home Clean Tools",
+            "newPrice":1.40,
+            "oldPrice":14.52,
+            "discountPercentage":null
+        },
+        {
+            "src":"https://ae-pic-a1.aliexpress-media.com/kf/S725abcbfcec8422b9d8d456ca0fa4ed6h.jpg_350x350.jpg_.webp",
+            "alt":"Anti Thief Rfid Credit Card Holder Smart Minimalist Wallet Pocket Men Women Slim Cardholder Bank Cash Creditcard Case Bag Purse",
+            "newPrice":1.40,
+            "oldPrice":13.14,
+            "discountPercentage":null
+        },
+        {
+            "src":"https://ae-pic-a1.aliexpress-media.com/kf/See9f7b6bb30a415ebbb9b4c48d6fbb90i.jpg_350x350.jpg_.webp",
+            "alt":"High Pressure Air Pump Manual Sprayer Adjustable Drink Bottle Spray Head Nozzle Garden Watering Tool Sprayer Agriculture Tools",
+            "newPrice":4.64,
+            "oldPrice":15.73,
+            "discountPercentage":null
+        }
+    ]
+}
